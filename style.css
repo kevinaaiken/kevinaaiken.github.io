@@ -9,7 +9,9 @@
 	line-height:inherit;
 	color:inherit;
 }
-body{
+html, body{
 	color:black;
 	background-color:red;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size:18px
 }
