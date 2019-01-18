@@ -11,7 +11,31 @@
 }
 html, body{
 	color:black;
-	background-color:red;
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
 	font-size:18px
+	line-height:30ps;
+	color:#444;
+	text-shadow: 1px 1px 0px #fff;
 }
+body{
+	text-align:center;
+}
+body{
+	text-align:center;
+}
+h1{
+	font-size:36px;
+	line-height:50px;
+	font-weight:bold;
+}
+img{
+	border-radius:50%;
+}
+
+.hero{
+	outline:1px solid red;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	
