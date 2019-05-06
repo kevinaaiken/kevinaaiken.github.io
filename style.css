@@ -38,6 +38,17 @@ h1 sub:before{
 h1 sub:after{
 	content:")";
 }
+h2{
+	font-size:24px;
+	line-height:40px;
+	font-weight:bold;
+}
+a{
+	color:#58b;
+}
+a:hover{
+	color:#369;
+}
 
 section{
 	border-top:2px dashed #eee;
@@ -66,7 +77,7 @@ section{
 	margin-left:auto;
 	margin-right:auto;
 	transition:transform 1s, box-shadow 1s;
-	background-image:url("kevin_glasses.jpg");
+	background-image:url("images/kevinglasses.jpg");
 	background-size:contain;
 }
 .headshot:hover{
@@ -79,4 +90,43 @@ section{
 }
 .headshot:hover img{
 	opacity:0;
+}
+
+.list li{
+	display:inline;
+	font-weight:bold;
+}
+.list li:not(:last-child):after{
+	content:", ";
+}
+
+.blocklist > li{
+	display:flex;
+	justify-content:center;
+	border-style:solid;
+	border-width:20px;
+	border-color:#fff #eee;
+}
+.blocklist > li > div{
+	flex-grow:1;
+	align-self:center;
+}
+.blocklist > li > img{
+		width:150px;
+		height:150px;
+		margin:0 15px;
+}
+.blocklist > li:nth-child(odd){
+	flex-direction:row;
+	text-align:left;
+	border-left-width:0;
+}
+.blocklist > li:nth-child(even){
+	flex-direction:row-reverse;
+	text-align:right;
+	border-right-width:0;
+}
+
+.prose{
+	
 }
